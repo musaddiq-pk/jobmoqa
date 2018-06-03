@@ -1,0 +1,57 @@
+***	
+	Slider setting on home page (Read more on detail ).
+****************************************************
+
+******************	For Israr	*****************
+	1. Breadcrumb style
+	2. Top Menu
+	3. Pagination and links in inner body like "view all latest jobs"
+	4. Jobs link in category list page
+
+
+
+6. table listing alternate color (front)
+8. Description for social sharing
+9. selecting newspaper or page to show the selected page (Front).
+10. Seperate orders by date...
+
+1. Newpaper description on front
+
+2. Category description on front
+
+3. select category and news paper
+
+4. privacy policy
+
+5. Terms of use
+
+
+meta description and title for 
+	region
+	category
+	newspaper
+	cv format
+	interview tips
+
+***
+Customer
+	<- Sending newsletter
+	<- Newsletter setting (so that customer can select His categories)
+	<- Customer Region for newsletter
+
+
+****************
+AD....
+	1. Option for adding link to current job
+	2. Feature Ad (for newsletter)
+
+*****
+site map				setting cronjob
+news letter
+
+
+*****
+Admin
+
+
+http://www.jobmoqa.pk/admin/users

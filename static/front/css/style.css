@@ -1,0 +1,906 @@
+/********___________________*\ 
+
+Project Name: Jobs;
+Author: amiriqbalmcs;
+File: Style.css;
+
+
+/*******___________________*/
+
+/* Reseting */
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section { display: block; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:focus{
+  text-decoration: none;
+}
+.no-margin{
+  margin:0;
+}
+.no-padding{
+  padding:0;
+}
+.clear{
+  clear:both;
+}
+html { -webkit-font-smoothing: antialiased; }
+body{
+  font-family:'Myriad Pro' ,'Open Sans', sans-serif;
+  /* background: #f2f2f2; */
+}
+h1{font-size:28px;}
+h3{font-size:20px;}
+li{list-style:none;}
+#region_list li a{
+	display:block;
+	padding:3px 10px;
+}
+/* Top Header */
+.logo{
+      padding: 10px 0px;
+}
+.hearder-top{
+  background: #314d68;
+  padding: 5px 0px;
+}
+.table tbody .even{
+  background-color: #dcdcdc;
+}
+.pagination{float:right;}
+.pagination > li > strong{
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;	
+}
+
+@media (min-width:320px) and ( max-width: 480px){
+.logo{
+  padding: 0; 
+  margin-bottom: 20px
+}
+.sarch-btn{
+    padding: 1px 4px;
+    border-radius: 50px;
+    display: inline-block !important;
+}
+.social_icone{
+  padding:0 15px 0 3px;
+}
+.hearder-top{
+  padding: 10px 0px;
+}
+.hearder-top .subs-news{
+  font-size : 14px !important;  
+}
+.left-side-bar{
+  padding-left: 15px !important;
+}
+.search-div{
+  background: url('') !important;
+  padding:0 !important;
+}
+.search-div .search-wrap{
+  margin-top:0 !important;
+  margin-bottom: 0 !important;
+}
+}
+@media (max-width:768px){
+  .hearder-top p{
+    text-align: right;
+  }
+  .cv-button{
+      margin-left: 20px;
+      width: 80%;
+    }
+}
+.hearder-top .subs-news{
+  color:#fff;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.hearder-top .subs-news:hover{
+  text-decoration: none;
+}
+
+
+/* Socail */
+.top-social{
+  list-style: none;
+}
+.top-social li{
+  display: inline-block;
+}
+.top-social li a img{
+  width: 25px;
+  -webkit-transition: all 0.5s;
+  transition:  all 0.5s;
+  -moz-transition:  all 0.5s;
+}
+.top-social li a:hover img{
+  transform: rotate(360deg);
+}
+
+header{
+  background: #fff;
+  padding-top:10px;
+  border-bottom: 1px solid #ddd;
+}
+@media (min-width:768px){
+  .menu{
+    list-style: none;
+    margin: 30px 0 ;
+  }
+  .menu li{
+    display: inline-block;
+    padding:0px 9px 30px 9px;
+
+  }
+  .menu li:hover{
+  border-bottom: 5px solid #3875a2;
+  }
+  .menu li:last-child:hover{
+  transition: all 0.4s;
+  border-bottom: none;
+  }
+  .menu li:hover a{
+  padding-bottom: 10px;
+  
+  }
+  .menu li a{
+    font-family: 'Myriad Pro';
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    
+  }
+  .menu li a:hover{
+    color: #314d68;
+    text-decoration: none;
+  }
+  .sidenav{
+  }
+
+}
+
+/* CV Button */
+.menu li a.cv-button{
+  color:#fff;
+  background: #314d68;
+  font-weight: bold;
+  font-family:'Myriad Pro' ,'Open Sans', sans-serif; 
+  border:none;
+  padding:6px 10px;
+  border-radius: 5px;
+}
+/* Search */
+.search-div{
+    background: url('../images/search-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0px;
+}
+.search-div .search-title{
+  font-family:'Raleway';
+  color:#fff;
+  font-weight: 800;
+  font-size: 56px;
+}
+.search-div .form-control{
+  border-radius: 0px;
+  background: #fff;
+  height: 44px;
+}
+.no-radius{
+  border-radius:0px;
+}
+.search-div .search-wrap{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #ebebeb;
+  padding: 20px;
+  border-radius: 4px;
+}
+.search-div .btn-default{
+  background: #314d68;
+  color:#fff;
+  border:0px;
+  border-radius: 0px;
+  font-weight: bold;
+  height: 44px;
+  font-size: 30px;
+}
+
+
+/* breadcrumbs */
+.breadcrumbs-div{
+  padding:35px 10px 0px 10px;
+}
+.breadcrumbs{
+  list-style: none;
+}
+.breadcrumbs li{
+  display: inline-block;
+}
+.breadcrumbs li a{
+  font-size: 16px;
+  padding: 0px 5px;
+  color:#000;
+  text-transform: uppercase;
+}
+.top-add img{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Left Side bar */
+.left-side-bar{
+  padding-left: 0px;
+}
+.right-side-bar{
+  padding-right: 0px;
+
+}
+.right-side-bar ul,.left-side-bar {
+  list-style: none;
+
+}
+.left-cat-title{
+  padding:10px;
+  color:#fff;
+  background: #314d68;
+  margin-bottom: 0px;
+
+}
+.left-side-bar ul,.right-side-bar ul{
+  list-style: none;
+}
+.left-side-bar ul li img,.right-side-bar ul li img{
+  width: 22px;
+}
+.left-side-bar ul li,.right-side-bar ul li{
+  padding-top:10px;
+  font-size: 16px;
+}
+/*.left-side-bar ul li:hover,.right-side-bar ul li:hover{
+  text-decoration:underline;
+}*/
+.left-side-bar ul li a:hover ,.right-side-bar ul li a:hover{
+	color:#988b8b;
+  text-decoration: none;
+}
+.left-side-bar ul li a, .right-side-bar ul li a{
+       color:#000;
+}
+
+/* Latest Jobs */
+.latest-jobs .col-md-3{}
+.main-title{
+  background: #ebebeb;
+  color:#696666;
+  font-weight: bold;
+  padding: 10px;
+}
+.latest-jobs .owl-item{
+  padding: 0px 10px;
+}
+.latest-jobs .owl-item:first-child{
+  padding: auto 0px;
+}
+.latest-jobs .owl-item:last-child{
+  padding: auto 0px;
+}
+
+
+
+.latest-jobs .sy-controls li{
+  display: inline-block;
+  list-style: none;
+}
+.latest-box{
+  background: #dddddd;
+  box-shadow: 0 2px 4px #888;
+  margin: 10px 0px;
+}
+.latest-job-title {
+    width:100%;;
+    overflow: hidden;
+    padding-left: 5%;
+    position:relative;
+    z-index:5;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: bold;
+    padding:5px;
+    margin: 0px;
+}
+.latest-job-title::before {
+    content :'';
+    position:absolute;
+    top:0;left:0;
+    width:50%; height:100%;
+    background: #3875a2;
+    transform-origin:0 0;
+    transform:skew(-20deg);
+    z-index:-1;
+}
+.latest-box .latest-img-box{
+  padding:5px;
+}
+.latest-box .latest-details-box p{
+  color:#827171;
+  font-weight: bold;
+  padding:2px 0px 2px 5px; 
+}
+.latest-box .latest-details-box p a{
+  color:#827171; 
+  transition: .4s all;
+  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+}
+.latest-box .latest-details-box p a:hover{
+  text-decoration: none; 
+  color:#3875a2;
+  margin-left: 10px;
+}
+
+.all-newspaper-box{
+  background: #ebebeb;
+  padding: 10px;
+  margin: 10px 0px 0 0;
+}
+.all-newspaper-box .news-img{
+  text-align: center;
+}
+.all-newspaper-box .news-img img{
+  width: 80%;
+}
+.view-all-btn{
+  border-radius: 0px;
+  background-color:#204d74; 
+  color:#fff;
+  border:0px;
+  font-size: 16px;
+  transition: .4s all;
+  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+}
+.view-all-btn:hover{
+  color:#b1acac;
+}
+.all-newspaper-box .news-name{
+  text-align: center;
+}
+.all-newspaper-box .news-name a{
+  color:#dc0030;
+}
+.all-newspaper-box .news-name a:hover{
+  color:#dc0030;
+  text-decoration: none;
+}
+.all-newspaper-box .news-dates{
+  text-align: center;
+}
+.all-newspaper-box .news-dates p a{
+  color:#008ac9;
+  transition: .4s all;
+  -webkit-transition: .4s all;
+  -moz-transition: .4s all;
+}
+.all-newspaper-box .news-dates p a:hover{
+  text-decoration: none;
+  color:#3875a2;
+  margin-left: 10px;
+}
+
+
+/* Category Page */
+.category-list{
+
+}
+.category-list .cat-list-title{
+ color:#fff;
+ background-color: #314d68;
+ padding:5px 20px;
+ text-align: center;
+}
+.category-list .table  thead{
+  background: #e9f6ff;
+  text-transform: uppercase;
+}
+
+.category-list .table  thead th{
+  text-align: center;
+}
+.category-list .table tbody{
+  background-color: #ebebeb;
+}
+.category-list .table tbody td{
+  text-align: center;
+}
+.category-list .table tbody a{
+  color:#000;
+}
+.table tbody a:hover{
+  color:#000;
+  text-decoration: none;
+}
+.cat-search .form-inline{
+  text-align: center;
+}
+.cat-search .form-control{
+  background: #fff;
+}
+.cat-search {
+  background: #ebebeb;
+  padding: 20px 0px;
+  border: 2px solid #e1e1e1;
+}
+.cat-search .form-control{
+  border-radius: 0px;
+  height: 44px;
+}
+.cat-search .btn-default{
+  border-radius: 0;
+  height: 44px;
+  width: 70px;
+  background: #314d68;
+  color: #fff;
+  font-size: 30px;
+  border: 0px;
+}
+.cat-search .form-inline .form-group .form-control {
+    //width:240px;
+}
+
+
+/* Details Page */
+.details-bg{
+  background: #f2f2f2;
+  color:#676767;
+}
+.details-bg .left-side-bar ul , .details-bg .right-side-bar ul{
+  background: #ebebeb;
+}
+.job-details  .social-share{
+  list-style: none;
+  text-align: right;
+}
+.job-details  .social-share li{
+  display: inline-block;
+}
+/*.job-details  .social-share li img{
+  width: 140px;
+}*/
+.details-bg  .job-details-table{
+    margin-top: 60px;
+    font-family: 'Raleway';
+}
+.job-details .table>tbody>tr>td, 
+.job-details .table>tbody>tr>th, 
+.job-details .table>tfoot>tr>td, 
+.job-details .table>tfoot>tr>th, 
+.job-details .table>thead>tr>td, 
+.job-details .table>thead>tr>th
+{
+	padding:8px 5px 2px 5px;
+}
+
+
+
+.job-details .print-pdf{
+    list-style: none;
+  text-align: right;
+}
+.job-details .print-pdf li{
+  display: inline-block;
+}
+.job-details .print-pdf li img{
+  width:50px;
+}
+.details-bg .table tr td{
+  border-bottom: 1px solid #ddd;
+}
+
+
+.details-bg .panel-group .panel {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #EEEEEE;
+}
+
+.details-bg .panel-default > .panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #212121;
+  background-color: #e8e3e3;
+  border-color: #EEEEEE;
+}
+
+.details-bg .panel-title {
+  font-size: 14px;
+}
+
+.details-bg .panel-title > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color:#676767;
+}
+
+.details-bg .more-less {
+  float: right;
+  color: #212121;
+}
+
+.details-bg .panel-default > .panel-heading + .details-bg .panel-collapse > .panel-body {
+  border-top-color: #EEEEEE;
+  font-family: 'Raleway';
+}
+.jobs-slider{
+  margin: 20px 0px;
+  font-family: 'Raleway';
+}
+.jobs-slider .owl-carousel  .owl-item{
+  padding:0px 10px;
+}
+.jobs-slider .new-pro-box{
+  background: #ffffff;
+}
+.jobs-slider .new-pro-box h4, .jobs-slider .new-pro-box p {
+  padding:10px;
+}
+.jobs-slider .sy-controls {
+  list-style: none;
+  margin: 5px 0px;
+  text-align: right;
+}
+.jobs-slider .sy-controls li{
+  display: inline-block;
+}
+
+/* About Us Page */
+.about-us p{
+  margin:10px 0px;
+}
+/* Footer */
+
+footer{
+  background-color: #222;
+  margin-top: 40px;
+  border-top:3px solid #00aeef;
+}
+footer .footer-title{
+  color:#fff;
+}
+footer .useful-links{
+  list-style: none;
+}
+footer .useful-links li{
+  padding:5px 0px;
+}
+footer .useful-links li a{
+  color:#6d7a83;
+  font-size: 16px;
+}
+footer .useful-links li a:hover{
+  color:#00aeef;
+  text-decoration: none;
+}
+footer .about-text{
+  color:#6d7a83;
+}
+footer .form-control {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #625f5f;
+  font-size: 16px;
+  font-weight: bold;
+  height: 44px;
+}
+footer .submit-btn{
+  background: #314d68;
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+footer .submit-btn:hover{
+  background: #fff;
+  color: #314d68;
+}
+.footer-bottom{
+  background-color: #131313;
+  padding:10px 0px;
+}
+.footer-bottom p{
+  color:#fff;
+  font-size: 14px;
+}
+
+
+
+
+/* Responsive */
+ @media(min-width:320px) and (max-width:768px){
+  .details-bg  .social-share{
+      text-align: center;
+    }
+  .details-bg .print-pdf{
+    text-align: center;
+  }
+  #cat-drop-list,#city-drop-list{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+      /* The side navigation menu */
+.sidenav {
+     background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+   /* padding-top: 37px;*/
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    z-index: 1;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    color: #818181;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 1;
+    padding: 0 7px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+   background: red none repeat scroll 0 0;
+    border-radius: 51px;
+    font-size: 34px !important;
+    margin-left: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+.nav-side-menu {
+  overflow: auto;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: #2e353d;
+  position: fixed;
+  top: 0px;
+  width: 300px;
+  height: 100%;
+  color: #e1ffff;
+}
+.nav-side-menu .brand {
+  background-color: #23282e;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+.nav-side-menu .toggle-btn {
+  display: none;
+}
+.nav-side-menu ul,
+.nav-side-menu li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 35px;
+  cursor: pointer;
+  /*    
+    .collapsed{
+       .arrow:before{
+                 font-family: FontAwesome;
+                 content: "\f053";
+                 display: inline-block;
+                 padding-left:10px;
+                 padding-right: 10px;
+                 vertical-align: middle;
+                 float:right;
+            }
+     }
+*/
+}
+.nav-side-menu ul :not(collapsed) .arrow:before,
+.nav-side-menu li :not(collapsed) .arrow:before {
+  font-family: FontAwesome;
+  content: "\f078";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  float: right;
+}
+.nav-side-menu ul .active,
+.nav-side-menu li .active {
+  border-left: 3px solid #d19b3d;
+  background-color: #4f5b69;
+}
+.nav-side-menu ul .sub-menu li.active,
+.nav-side-menu li .sub-menu li.active {
+  color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li.active a,
+.nav-side-menu li .sub-menu li.active a {
+  color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li,
+.nav-side-menu li .sub-menu li {
+  background-color: #181c20;
+  border: none;
+  line-height: 28px;
+  border-bottom: 1px solid #23282e;
+  margin-left: 0px;
+}
+.nav-side-menu ul .sub-menu li:hover,
+.nav-side-menu li .sub-menu li:hover {
+  background-color: #020203;
+}
+.nav-side-menu ul .sub-menu li:before,
+.nav-side-menu li .sub-menu li:before {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.nav-side-menu li {
+  padding-left: 0px;
+  border-left: 3px solid #2e353d;
+  border-bottom: 1px solid #23282e;
+}
+.nav-side-menu li a {
+  text-decoration: none;
+  color: #e1ffff;
+}
+.nav-side-menu li a i {
+  padding-left: 10px;
+  width: 20px;
+  padding-right: 20px;
+}
+.nav-side-menu li:hover {
+  border-left: 3px solid #d19b3d;
+  background-color: #4f5b69;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+@media (max-width: 667px) {
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+}
+/*@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}*/
+/*body {
+  margin: 0px;
+  padding: 0px;
+}*/
+
+
+/*csss*/
+.left_menu ul li a {
+    font-size: 12px;
+    padding: 0;
+}
+.left_menu ul ul li a {
+  display: inline-block;
+}
+.menu-list {
+    background: #565d66 none repeat scroll 0 0;
+}
+.left_menu ul ul li {
+    background: #818890 none repeat scroll 0 0 !important;
+}
+.error_msg{color:#ff0000;}
