@@ -1,5 +1,5 @@
 <?php
-//Test change for git
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -18,6 +18,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
+ //Testing add file
 	define('ENVIRONMENT', 'testing');
 /*
  *---------------------------------------------------------------
