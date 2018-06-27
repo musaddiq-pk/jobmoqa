@@ -1,5 +1,5 @@
 <?php
-//Test change for git
+//Change is reverted
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
