@@ -18,7 +18,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
- //Testing add file
+ //Testing add filess
 	define('ENVIRONMENT', 'testing');
 /*
  *---------------------------------------------------------------
