@@ -22,7 +22,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
- //Testing add filess
+ //Test check commit and then merge it with master
 	define('ENVIRONMENT', 'testing');
 /*
  *---------------------------------------------------------------
