@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 //Change is reverted
+=======
+
+>>>>>>> dev
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -18,6 +22,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
+ //Testing add filess
 	define('ENVIRONMENT', 'testing');
 /*
  *---------------------------------------------------------------
