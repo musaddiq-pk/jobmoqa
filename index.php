@@ -1,9 +1,4 @@
 <?php
-<<<<<<< HEAD
-//Change is reverted
-=======
-
->>>>>>> dev
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
