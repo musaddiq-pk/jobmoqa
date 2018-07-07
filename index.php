@@ -17,7 +17,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
- //Test3 check commit and then merge it with master
+ //Test4 check commit and then merge it with master
 	define('ENVIRONMENT', 'testing');
 /*
  *---------------------------------------------------------------
