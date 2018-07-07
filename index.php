@@ -17,7 +17,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
- //Branch diff testing check commit and then merge it with master
+ //Two files commit testing and then merge it with master
 	define('ENVIRONMENT', 'testing');
 /*
  *---------------------------------------------------------------
