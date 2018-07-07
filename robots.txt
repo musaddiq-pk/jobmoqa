@@ -4,7 +4,7 @@ Allow: /sitemap.xml
 
 
 
-Disallow: /search
+
 
 Disallow: /application
 Disallow: /static
