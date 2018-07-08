@@ -4,11 +4,11 @@ Allow: /sitemap.xml
 
 
 
-
+Disallow: /profile:
 Disallow: /search
 Disallow: /application
 Disallow: /static
 Disallow: /system
 Disallow: /uploads
 Disallow: /.well-known
-Disallow: /cgi-bin
+Disallow: /cg:-bin
