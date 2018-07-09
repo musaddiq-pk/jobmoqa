@@ -3,12 +3,15 @@ Sitemap: https://www.furniturenation.com/sitemap.xml
 Allow: /sitemap.xml
 
 
+Disallow: /search
 
 
+Disallow: /profile
+Disallow: /orders
 Disallow: /search
 Disallow: /application
 Disallow: /static
 Disallow: /system
 Disallow: /uploads
 Disallow: /.well-known
-Disallow: /cgi-bin
+Disallow: /cg:-bin
