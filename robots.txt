@@ -5,6 +5,7 @@ Allow: /sitemap.xml
 
 
 Disallow: /profile
+Disallow: /orders
 Disallow: /search
 Disallow: /application
 Disallow: /static
