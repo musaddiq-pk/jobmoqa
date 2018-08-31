@@ -6,7 +6,7 @@ Allow: /sitemap.xml
 Disallow: /search
 
 
-Disallow: /profiless
+Disallow: /profile
 Disallow: /orders
 Disallow: /search
 Disallow: /application
