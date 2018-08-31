@@ -3,6 +3,8 @@ Sitemap: https://www.furniturenation.com/sitemap.xml
 Allow: /sitemap.xml
 
 
+Disallow: /search
+
 
 Disallow: /profile
 Disallow: /orders
