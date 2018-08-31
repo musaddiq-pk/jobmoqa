@@ -18,7 +18,7 @@ class docs extends CI_Controller
 	
 	function documents($url='')
 	{
-		echo 'Here..... in doc';exit;
+		echo 'Here..... in do';exit;
 		$data['menu'] = $this->general_model->get_menu();
 		
 		$page_data = $this->table_data;
