@@ -2,12 +2,7 @@ User-agent: *
 Sitemap: https://www.furniturenation.com/sitemap.xml
 Allow: /sitemap.xml
 
-
-<<<<<<< HEAD
 Disallow: /search
-=======
-Disallow: /searche
->>>>>>> b8c0ab3cbebb24185b2451776ca501e6985a282e
 
 
 Disallow: /profile
