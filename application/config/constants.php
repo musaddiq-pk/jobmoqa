@@ -77,11 +77,7 @@ define('SITE_NAME', 'JobMoqa');
 define('SITE_TEAM', 'JobMoqa Team');
 //Constants for AdminArea
 
-<<<<<<< Updated upstream
-define('BASE_URL', 'http://127.0.0.1:8080/job1/');
-=======
 define('BASE_URL', 'http://localhost/jobmoqa2/');
->>>>>>> Stashed changes
 //define('BASE_URL', 'http://www.jobmoqa.pk/');
 
 define('PAPER_URL',BASE_URL.'epaper/');
