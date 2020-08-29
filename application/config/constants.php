@@ -77,7 +77,8 @@ define('SITE_NAME', 'JobMoqa');
 define('SITE_TEAM', 'JobMoqa Team');
 //Constants for AdminArea
 
-define('BASE_URL', 'http://localhost/jobmoqa223/');
+
+define('BASE_URL', 'http://localhost/jobmoqa/change_then_create_branch');
 //define('BASE_URL', 'http://www.jobmoqa.pk/');
 
 define('PAPER_URL',BASE_URL.'epaper/');
